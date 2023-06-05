@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 a=Integer.parseInt(editTextText.getText().toString());
+                editTextText.setText("");
 
                 x="*";
             }
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 b=Integer.parseInt(editTextText.getText().toString());
                 editTextText.setText("");
+
                 if (x.equals("+")){
                     editTextText.setText((a+b)+"");
                 }
@@ -84,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 if (x.equals("/")){
                     editTextText.setText((a/b)+"");
                 }
+
 
 
 
