@@ -176,8 +176,8 @@
 
     <Button
         android:id="@+id/buttonzarb"
-        android:layout_width="191dp"
-        android:layout_height="66dp"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
         android:text="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -188,8 +188,8 @@
 
     <Button
         android:id="@+id/buttontaghsim"
-        android:layout_width="191dp"
-        android:layout_height="66dp"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
         android:text="/"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
